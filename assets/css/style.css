@@ -1,0 +1,42 @@
+/* assets/css/style.css */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: #5e5e5e;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  background: #d1d1d1;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color:#00cc1b
+}
+
+h2 {
+  color: #fff;
+}
+
+.post-date {
+  font-size: 0.9em;
+  color: gray;
+}

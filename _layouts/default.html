@@ -1,0 +1,31 @@
+<!-- _layouts/default.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+        <nav>
+            <a href="{{ '/' | relative_url }}">Home</a> |
+            <a href="{{ '/about' | relative_url }}">About</a>｜
+            <a href="{{ '/_posts' | relative_url }}">投稿</a>
+        </nav>
+    </header>
+    <main class="md">
+        {{ content }}
+    </main>
+    <footer>
+        <h2>SNS</h2>
+        <p>
+            <img src="{{ '/assets/image/twitter.png' | relative_url }}" alt="Twitterアイコン" style="width: 20px; vertical-align: middle;">
+            Twitter　<a href="{{ site.twitter_url }}">@{{ site.twitter_username}}</a>
+        </p>
+    </footer>
+
+</body>
